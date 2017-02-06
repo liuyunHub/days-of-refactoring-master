@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0657D534-2190-4295-BFDF-8D982088F894}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LosTechies.DaysOfRefactoring.SampleCode</RootNamespace>
+    <AssemblyName>LosTechies.DaysOfRefactoring.SampleCode</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Day10_ExtractMethod\Receipt_After.cs" />
+    <Compile Include="Day10_ExtractMethod\Receipt_Before.cs" />
+    <Compile Include="Day11_SwitchToStrategy\ShippingInfo_After.cs" />
+    <Compile Include="Day11_SwitchToStrategy\ShippingInfo_Before.cs" />
+    <Compile Include="Day12_BreakDependencies\AnimalFeedingService_Before.cs" />
+    <Compile Include="Day12_BreakDependencies\AnimalFeedingService_After.cs" />
+    <Compile Include="Day13_ExtractMethodObject\Order_After.cs" />
+    <Compile Include="Day13_ExtractMethodObject\Order_Before.cs" />
+    <Compile Include="Day14_BreakResponsibilities\Video_After.cs" />
+    <Compile Include="Day14_BreakResponsibilities\Video_Before.cs" />
+    <Compile Include="Day15_RemoveDuplication\MedicalRecord_Before.cs" />
+    <Compile Include="Day15_RemoveDuplication\MedicalRecord_After.cs" />
+    <Compile Include="Day16_EncapsulateConditional\RemoteControl_After.cs" />
+    <Compile Include="Day16_EncapsulateConditional\RemoteControl_Before.cs" />
+    <Compile Include="Day17_ExtractSuperclass\Dog_After.cs" />
+    <Compile Include="Day17_ExtractSuperclass\Dog_Before.cs" />
+    <Compile Include="Day18_ReplaceException\Microwave_After.cs" />
+    <Compile Include="Day18_ReplaceException\Microwave_Before.cs" />
+    <Compile Include="Day19_ExtractFactoryClass\PoliceCarController_After.cs" />
+    <Compile Include="Day19_ExtractFactoryClass\PoliceCarController_Before.cs" />
+    <Compile Include="Day1_EncapsulateCollection\Order_After.cs" />
+    <Compile Include="Day1_EncapsulateCollection\Order_Before.cs" />
+    <Compile Include="Day20_ExtractSubclass\Registration_After.cs" />
+    <Compile Include="Day20_ExtractSubclass\Registration_Before.cs" />
+    <Compile Include="Day21_CollapseHierarchy\StudentWebsite_After.cs" />
+    <Compile Include="Day21_CollapseHierarchy\StudentWebsite_Before.cs" />
+    <Compile Include="Day22_BreakMethod\CashRegister_Before.cs" />
+    <Compile Include="Day22_BreakMethod\CashRegister_After.cs" />
+    <Compile Include="Day23_ParameterObject\Registration_After.cs" />
+    <Compile Include="Day23_ParameterObject\Registration_Before.cs" />
+    <Compile Include="Day24_ArrowheadAntipattern\Security_After.cs" />
+    <Compile Include="Day24_ArrowheadAntipattern\Security_Before.cs" />
+    <Compile Include="Day25_DesignByContract\CashRegister_Before.cs" />
+    <Compile Include="Day25_DesignByContract\CashRegister_After.cs" />
+    <Compile Include="Day26_DoubleNegative\Customer_After.cs" />
+    <Compile Include="Day26_DoubleNegative\Customer_Before.cs" />
+    <Compile Include="Day27_RemoveGodClasses\CustomerService_After.cs" />
+    <Compile Include="Day27_RemoveGodClasses\CustomerService_Before.cs" />
+    <Compile Include="Day28_RenameBooleanMethod\BankAccount_After.cs" />
+    <Compile Include="Day28_RenameBooleanMethod\BankAccount_Before.cs" />
+    <Compile Include="Day29_RemoveMiddleMan\AccountService_After.cs" />
+    <Compile Include="Day29_RemoveMiddleMan\AccountService_Before.cs" />
+    <Compile Include="Day2_MoveMethod\BankAccount_After.cs" />
+    <Compile Include="Day2_MoveMethod\BankAccount_Before.cs" />
+    <Compile Include="Day30_ReturnASAP\Order_After.cs" />
+    <Compile Include="Day30_ReturnASAP\Order_Before.cs" />
+    <Compile Include="Day31_ReplaceWithPolymorphism\OrderProcessor_After.cs" />
+    <Compile Include="Day31_ReplaceWithPolymorphism\OrderProcessor_Before.cs" />
+    <Compile Include="Day3_PullUpMethod\Vehicle_After.cs" />
+    <Compile Include="Day3_PullUpMethod\Vehicle_Before.cs" />
+    <Compile Include="Day4_PushDownMethod\Animal_Before.cs" />
+    <Compile Include="Day4_PushDownMethod\Animal_After.cs" />
+    <Compile Include="Day5_PullUpField\BankAccount_After.cs" />
+    <Compile Include="Day5_PullUpField\BankAccount_Before.cs" />
+    <Compile Include="Day6_PushDownField\Task_After.cs" />
+    <Compile Include="Day6_PushDownField\Task_Before.cs" />
+    <Compile Include="Day7_Rename\Person_After.cs" />
+    <Compile Include="Day7_Rename\Person_Before.cs" />
+    <Compile Include="Day8_ReplaceInheritance\Child_Before.cs" />
+    <Compile Include="Day8_ReplaceInheritance\Child_After.cs" />
+    <Compile Include="Day9_ExtractInterface\ClassRegistration_After.cs" />
+    <Compile Include="Day9_ExtractInterface\ClassRegistration_Before.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
